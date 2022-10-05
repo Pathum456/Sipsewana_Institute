@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AllStudentDetailContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" stylesheets="@../assets/style/ui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AllStudentDetailFormController">
+    <children>
+        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+            <children>
+                <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Details">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Text>
+                <Separator layoutX="187.0" layoutY="25.0" prefHeight="4.0" prefWidth="669.0" style="-fx-background-color: #005dff;" />
+            </children>
+        </AnchorPane>
+        <TableView fx:id="tblStudent" layoutY="67.0" prefHeight="612.0" prefWidth="862.0">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="87.0" text="Student ID" />
+                <TableColumn fx:id="ColFullName" prefWidth="180.0" text="Full Name" />
+                <TableColumn fx:id="colAddress" prefWidth="149.0" text="Address" />
+                <TableColumn fx:id="colNic" prefWidth="120.0" text="NIC" />
+                <TableColumn fx:id="colScl" prefWidth="123.0" text="School" />
+                <TableColumn fx:id="colMobile" prefWidth="105.0" text="Mobile" />
+                <TableColumn fx:id="colBirthday" prefWidth="96.0" text="Birthday" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

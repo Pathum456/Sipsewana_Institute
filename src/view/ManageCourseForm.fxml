@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ManageCourseContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" stylesheets="@../assets/style/ui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageCourseFormController">
+    <children>
+        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+            <children>
+                <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Courses">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Text>
+                <Separator layoutX="187.0" layoutY="25.0" prefHeight="4.0" prefWidth="669.0" style="-fx-background-color: #005dff;" />
+            </children>
+        </AnchorPane>
+        <JFXTextField fx:id="txtId" focusColor="#005dff" labelFloat="true" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="200.0" promptText="Course ID" unFocusColor="#005dff" />
+        <JFXTextField fx:id="txtProgram" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="64.0" prefHeight="25.0" prefWidth="605.0" promptText="Program" unFocusColor="#005dff" />
+        <JFXTextField fx:id="txtDuration" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="106.0" prefHeight="25.0" prefWidth="605.0" promptText="Duration" unFocusColor="#005dff" />
+        <JFXTextField fx:id="txtFees" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="154.0" prefHeight="25.0" prefWidth="605.0" promptText="Course Fees" unFocusColor="#005dff" />
+        <Button fx:id="btnAdd" layoutX="477.0" layoutY="211.0" mnemonicParsing="false" onAction="#AddCourseOnAction" prefHeight="31.0" prefWidth="177.0" style="-fx-background-color: Yellow; -fx-background-radius: 50;" text="Add Course" textFill="#130f40">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+        <TableView fx:id="tblContext" layoutY="264.0" prefHeight="415.0" prefWidth="862.0" stylesheets="@../assets/style/ui.css">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="124.0" text="Course ID" />
+                <TableColumn fx:id="colProgram" prefWidth="256.0" text="Program" />
+                <TableColumn fx:id="colDuration" prefWidth="190.0" text="Duration" />
+                <TableColumn fx:id="colFees" prefWidth="157.0" text="Course fees" />
+            <TableColumn fx:id="colDelete" prefWidth="134.0" text="Delete" />
+            </columns>
+        </TableView>
+      <Button fx:id="btnAdd1" layoutX="671.0" layoutY="211.0" mnemonicParsing="false" onAction="#updateOnAction" prefHeight="31.0" prefWidth="177.0" style="-fx-background-color: #005dff; -fx-background-radius: 50;" text="Update" textFill="#130f40">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

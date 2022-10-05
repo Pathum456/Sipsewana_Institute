@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AdminContext" prefHeight="687.0" prefWidth="1176.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageFormController">
+   <children>
+      <AnchorPane prefHeight="687.0" prefWidth="314.0" style="-fx-background-color: #130f40;">
+         <children>
+            <AnchorPane prefHeight="85.0" prefWidth="314.0" style="-fx-background-color: #005dff;">
+               <children>
+                  <Text fill="#130f40" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute" wrappingWidth="208.9765625">
+                     <font>
+                        <Font name="MV Boli" size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#130f40" layoutX="48.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin DashBoard" wrappingWidth="216.9765625">
+                     <font>
+                        <Font name="Gadugi Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Separator layoutX="5.0" layoutY="41.0" prefHeight="3.0" prefWidth="305.0" />
+                  <ImageView fitHeight="25.0" fitWidth="48.0" layoutX="231.0" layoutY="12.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../assets/image/icons8-institute-64.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btn1" layoutX="92.0" layoutY="132.0" mnemonicParsing="false" onAction="#ManageCourseOnAction" prefHeight="38.0" prefWidth="190.0" style="-fx-background-color: transparent;" text="Manage Courses" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="14.0" layoutY="655.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.0.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="btn4" layoutX="128.0" layoutY="560.0" mnemonicParsing="false" onAction="#BackToOnAction" prefHeight="32.0" prefWidth="119.0" style="-fx-background-color: tranparent; -fx-background-radius: 50;" text="Log Out" textFill="#d02929">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" layoutX="92.0" layoutY="196.0" mnemonicParsing="false" onAction="#StudentDetailsOnAction" prefHeight="38.0" prefWidth="190.0" style="-fx-background-color: transparent;" text="Student Details" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="44.0" fitWidth="55.0" layoutX="92.0" layoutY="560.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image/icons8-shutdown-48.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="55.0" layoutX="47.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image/icons8-course-96.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="55.0" layoutX="47.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/image/icons8-student-64.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="AdminLoadContext" layoutX="314.0" layoutY="-2.0" prefHeight="687.0" prefWidth="863.0">
+         <children>
+            <ImageView fitHeight="566.0" fitWidth="866.0" layoutY="123.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../assets/image/Three-happy-students-looking-at-you-with-thumbs-up-in-university-campus-school-spirit-ideas-ss-feature.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="-4.0" layoutY="-1.0" prefHeight="135.0" prefWidth="870.0" style="-fx-background-color: #130f40;">
+               <children>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute..." wrappingWidth="459.999996304512">
+                     <font>
+                        <Font name="Toledo" size="55.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sipsewanainstitute@gmail.com" wrappingWidth="371.9765625">
+                     <font>
+                        <Font name="Gadugi Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" layoutX="14.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+941177784657/+94778987763" wrappingWidth="346.97656857967377">
+                     <font>
+                        <Font name="Gadugi Bold" size="21.0" />
+                     </font>
+                  </Text>
+               </children></AnchorPane>
+            <Label fx:id="lblDate" layoutX="629.0" layoutY="24.0" prefHeight="46.0" prefWidth="190.0" text="2021/12/30" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblTime" layoutX="656.0" layoutY="76.0" prefHeight="44.0" prefWidth="177.0" text="15:28:23" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="AllCourseDetailContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" stylesheets="@../assets/style/ui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AllCourseDetailFormController">
+    <children>
+        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+            <children>
+                <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Courses Details">
+                    <font>
+                        <Font name="System Bold" size="21.0" />
+                    </font>
+                </Text>
+                <Separator layoutX="187.0" layoutY="25.0" prefHeight="4.0" prefWidth="669.0" style="-fx-background-color: #005dff;" />
+            </children>
+        </AnchorPane>
+        <TableView fx:id="tblContext" layoutY="66.0" prefHeight="613.0" prefWidth="862.0">
+            <columns>
+                <TableColumn fx:id="colId" prefWidth="124.0" text="Course ID" />
+                <TableColumn fx:id="colProgram" prefWidth="293.0" text="Program" />
+                <TableColumn fx:id="colDuration" prefWidth="234.0" text="Duration" />
+                <TableColumn fx:id="colCourseFess" prefWidth="210.0" text="Course fees" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -11,19 +11,19 @@
 
 <AnchorPane fx:id="ManageCourseContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" stylesheets="@../assets/style/ui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageCourseFormController">
     <children>
-        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #00ced1;">
             <children>
                 <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Courses">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Text>
-                <Separator layoutX="187.0" layoutY="25.0" prefHeight="4.0" prefWidth="669.0" style="-fx-background-color: #005dff;" />
+                <Separator layoutX="215.0" layoutY="25.0" prefHeight="4.0" prefWidth="605.0" style="-fx-background-color: #005dff;" />
             </children>
         </AnchorPane>
         <JFXTextField fx:id="txtId" focusColor="#005dff" labelFloat="true" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="200.0" promptText="Course ID" unFocusColor="#005dff" />
         <JFXTextField fx:id="txtProgram" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="64.0" prefHeight="25.0" prefWidth="605.0" promptText="Program" unFocusColor="#005dff" />
-        <JFXTextField fx:id="txtDuration" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="106.0" prefHeight="25.0" prefWidth="605.0" promptText="Duration" unFocusColor="#005dff" />
+        <JFXTextField fx:id="txtDuration" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="107.0" prefHeight="25.0" prefWidth="605.0" promptText="Duration" unFocusColor="#005dff" />
         <JFXTextField fx:id="txtFees" focusColor="#005dff" labelFloat="true" layoutX="231.0" layoutY="154.0" prefHeight="25.0" prefWidth="605.0" promptText="Course Fees" unFocusColor="#005dff" />
         <Button fx:id="btnAdd" layoutX="477.0" layoutY="211.0" mnemonicParsing="false" onAction="#AddCourseOnAction" prefHeight="31.0" prefWidth="177.0" style="-fx-background-color: Yellow; -fx-background-radius: 50;" text="Add Course" textFill="#130f40">
             <font>

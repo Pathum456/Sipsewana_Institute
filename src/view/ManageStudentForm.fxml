@@ -12,14 +12,14 @@
 
 <AnchorPane fx:id="ManageStudentContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManageStudentFormController">
    <children>
-      <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+      <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #00ced1;">
          <children>
             <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Student">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
             </Text>
-            <Separator layoutX="187.0" layoutY="25.0" prefHeight="4.0" prefWidth="669.0" style="-fx-background-color: #005dff;" />
+            <Separator layoutX="218.0" layoutY="25.0" prefHeight="4.0" prefWidth="638.0" style="-fx-background-color: #005dff;" />
          </children>
       </AnchorPane>
       <JFXTextField fx:id="txtId" focusColor="#005dff" labelFloat="true" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="200.0" promptText="Student ID" unFocusColor="#005dff" />

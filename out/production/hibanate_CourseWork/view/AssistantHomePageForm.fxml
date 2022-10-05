@@ -11,17 +11,17 @@
 
 <AnchorPane fx:id="AssistantContext" prefHeight="687.0" prefWidth="1176.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AssistantHomePageFormController">
     <children>
-        <AnchorPane prefHeight="687.0" prefWidth="314.0" style="-fx-background-color: #130f40;">
+        <AnchorPane prefHeight="687.0" prefWidth="314.0" style="-fx-background-color: #00ced1;">
             <children>
                 <AnchorPane prefHeight="85.0" prefWidth="314.0" style="-fx-background-color: #005dff;">
                     <children>
-                        <Text fill="#130f40" layoutX="14.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute" wrappingWidth="208.9765625">
+                        <Text fill="#130f40" layoutX="5.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute" wrappingWidth="226.9999852180481">
                             <font>
                                 <Font name="MV Boli" size="22.0" />
                             </font>
                         </Text>
                         <Separator layoutX="5.0" layoutY="41.0" prefHeight="3.0" prefWidth="305.0" />
-                        <ImageView fitHeight="25.0" fitWidth="48.0" layoutX="231.0" layoutY="12.0" pickOnBounds="true">
+                        <ImageView fitHeight="25.0" fitWidth="48.0" layoutX="252.0" layoutY="10.0" pickOnBounds="true">
                             <image>
                                 <Image url="@../assets/image/icons8-institute-64.png" />
                             </image>
@@ -87,31 +87,31 @@
                   <Image url="@../assets/image/thumbs_up_students-1024x687.jpeg" />
                </image>
             </ImageView>
-            <AnchorPane prefHeight="141.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+            <AnchorPane prefHeight="141.0" prefWidth="862.0" style="-fx-background-color: #00ced1;">
                <children>
-                  <Label fx:id="lblDate" layoutX="619.0" layoutY="14.0" prefHeight="46.0" prefWidth="190.0" text="2021/12/30" textFill="WHITE">
+                  <Label fx:id="lblDate" layoutX="737.0" layoutY="14.0" prefHeight="46.0" prefWidth="125.0" text="2021/12/30" textFill="WHITE">
                      <font>
-                        <Font name="System Bold" size="31.0" />
+                        <Font name="System Bold" size="19.0" />
                      </font>
                   </Label>
-                  <Label fx:id="lblTime" layoutX="646.0" layoutY="66.0" prefHeight="44.0" prefWidth="177.0" text="15:28:23" textFill="WHITE">
+                  <Label fx:id="lblTime" layoutX="745.0" layoutY="66.0" prefHeight="44.0" prefWidth="116.0" text="15:28:23" textFill="WHITE">
                      <font>
-                        <Font name="System Bold" size="29.0" />
+                        <Font name="System Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Text fill="WHITE" layoutX="14.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute..." wrappingWidth="459.999996304512">
+                  <Text fill="WHITE" layoutX="14.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sipsewana Institute..." wrappingWidth="597.999996304512">
                      <font>
-                        <Font name="Toledo" size="55.0" />
+                        <Font size="53.0" />
                      </font>
                   </Text>
-                  <Text fill="WHITE" layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sipsewanainstitute@gmail.com" wrappingWidth="371.9765625">
+                  <Text fill="WHITE" layoutX="14.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sipsewanainstitute@gmail.com" wrappingWidth="371.9765625">
                      <font>
-                        <Font name="Gadugi Bold" size="24.0" />
+                        <Font size="16.0" />
                      </font>
                   </Text>
-                  <Text fill="WHITE" layoutX="14.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+941177784657/+94778987763" wrappingWidth="346.97656857967377">
+                  <Text fill="WHITE" layoutX="299.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+941177784657 / +94778987763" wrappingWidth="346.97656857967377">
                      <font>
-                        <Font name="Gadugi Bold" size="21.0" />
+                        <Font size="16.0" />
                      </font>
                   </Text>
                </children>

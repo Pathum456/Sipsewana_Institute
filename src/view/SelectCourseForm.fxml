@@ -13,17 +13,17 @@
 
 <AnchorPane fx:id="SelectCourseContext" prefHeight="687.0" prefWidth="862.0" style="-fx-background-color: white;" stylesheets="@../assets/style/ui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SelectCourseFormController">
     <children>
-        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+        <AnchorPane prefHeight="50.0" prefWidth="862.0" style="-fx-background-color: #00ced1;">
             <children>
-                <Text fill="#005dff" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Student" wrappingWidth="151.111328125">
+                <Text fill="WHITE" layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Student" wrappingWidth="151.111328125">
                     <font>
-                        <Font name="System Bold" size="21.0" />
+                        <Font name="System Bold" size="17.0" />
                     </font>
                 </Text>
                 <Separator layoutX="165.0" layoutY="25.0" prefHeight="4.0" prefWidth="428.0" style="-fx-background-color: #005dff;" />
-            <Text fill="#005dff" layoutX="614.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register ID  :" wrappingWidth="132.11132103204727">
+            <Text fill="WHITE" layoutX="614.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register ID  :" wrappingWidth="132.11132103204727">
                <font>
-                  <Font name="System Bold" size="21.0" />
+                  <Font name="System Bold" size="17.0" />
                </font>
             </Text>
             <Text fx:id="lblRegisterID" fill="#005dff" layoutX="762.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="R-000" wrappingWidth="75.11132103204727">
@@ -55,9 +55,9 @@
         </TableView>
       <JFXTextField fx:id="txtBirthday" editable="false" focusColor="#005dff" labelFloat="true" layoutX="541.0" layoutY="196.0" prefHeight="25.0" prefWidth="289.0" promptText="Birthday" unFocusColor="#005dff" />
       <JFXComboBox fx:id="cmbCourseID" focusColor="#005dff" layoutX="9.0" layoutY="282.0" prefHeight="25.0" prefWidth="212.0" promptText="Select Course ID" unFocusColor="#005dff" />
-      <AnchorPane layoutY="243.0" prefHeight="28.0" prefWidth="862.0" style="-fx-background-color: #130f40;">
+      <AnchorPane layoutY="243.0" prefHeight="28.0" prefWidth="862.0" style="-fx-background-color: #00ced1;">
          <children>
-            <Text fill="#005dff" layoutX="14.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Course">
+            <Text fill="WHITE" layoutX="14.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Course">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
@@ -83,6 +83,6 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Label>
-      <JFXComboBox fx:id="cmbStudentId" focusColor="#005dff" layoutX="14.0" layoutY="64.0" prefHeight="25.0" prefWidth="187.0" promptText="Select Student ID" unFocusColor="#005dff" />
+      <JFXComboBox fx:id="cmbStudentId" focusColor="#005dff" layoutX="14.0" layoutY="65.0" prefHeight="25.0" prefWidth="187.0" promptText="Select Student ID" unFocusColor="#005dff" />
     </children>
 </AnchorPane>

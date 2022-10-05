@@ -28,7 +28,7 @@ public class DashBoardFormController {
             stage.show();
             Stage stage1= (Stage)DashBoardContext.getScene().getWindow();
             stage1.close();
-        } else if (txtUserName.getText().equalsIgnoreCase("Assistant") && txtPassword.getText().equalsIgnoreCase("1234")) {
+        } else if (txtUserName.getText().equalsIgnoreCase("Admin2") && txtPassword.getText().equalsIgnoreCase("1234")) {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/AssistantHomePageForm.fxml"));
             Parent parent=loader.load();
             Scene scene=new Scene(parent);
